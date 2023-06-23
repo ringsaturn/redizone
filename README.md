@@ -3,6 +3,12 @@
 Build with [`tidwall/redcon.rs`](https://github.com/tidwall/redcon.rs) and
 [`ringsaturn/tzf-rs`](https://github.com/ringsaturn/tzf-rs).
 
+Install(only cargo is supported by now):
+
+```bash
+cargo install redizone
+```
+
 ```console
 $ redis-cli -p 6380
 127.0.0.1:6380> get_tz 116.3883 39.9289
