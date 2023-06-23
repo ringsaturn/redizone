@@ -1,15 +1,9 @@
 name: build
 
-# on:
-#   push:
-#     tags:
-#       - "*"
-
 on:
   push:
-    branches: ["main"]
-  pull_request:
-    branches: ["main"]
+    tags:
+      - "*"
 
 jobs:
   build-image:
