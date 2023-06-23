@@ -7,6 +7,11 @@ RUN cargo install --path .
 
 FROM debian:bullseye-slim
 
+LABEL \
+    name = "redizone" \
+    org.opencontainers.image.description = "Redis compatible server convert longitude and latitude to timezone name(s)." \
+    org.opencontainers.image.source = "https://github.com/ringsaturn/redizone"
+
 COPY --from=builder /usr/local/cargo/bin/redizone /usr/local/bin/redizone
 
 CMD ["redizone"]
