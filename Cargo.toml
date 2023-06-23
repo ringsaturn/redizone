@@ -3,6 +3,13 @@ name = "redizone"
 version = "0.1.0"
 edition = "2021"
 
+description = "Redis compatible server convert longitude and latitude to timezone name(s)."
+homepage = "http://github.com/ringsaturn/redizone"
+keywords = ["timezone", "geo"]
+license-file = "LICENSE"
+readme = "README.md"
+repository = "http://github.com/ringsaturn/redizone"
+
 # See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
 
 [dependencies]
