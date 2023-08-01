@@ -4,7 +4,7 @@ version = "0.1.0"
 edition = "2021"
 
 description = "Redis compatible server convert longitude and latitude to timezone name(s)."
-homepage = "http://github.com/ringsaturn/redizone"
+homepage = "https://github.com/ringsaturn/redizone"
 keywords = ["timezone", "geo"]
 license-file = "LICENSE"
 readme = "README.md"
