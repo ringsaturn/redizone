@@ -25,7 +25,6 @@ fn main() {
                 }
                 let lat = lat_result.unwrap();
                 conn.write_string(db.get_tz_name(lng, lat));
-                return;
             }
             "get_tzs" => {
                 if args.len() != 3 {
@@ -50,7 +49,6 @@ fn main() {
                 for tz in tzs {
                     conn.write_bulk(tz.as_bytes());
                 }
-                return;
             }
             _ => conn.write_error("ERR unknown command"),
         }
