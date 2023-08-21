@@ -450,7 +450,7 @@ checksum = "b1858cf83e63a6524904758e164b2b9a3c29ffc2105f0f7a6e70860241d5eda7"
 
 [[package]]
 name = "redizone"
-version = "0.1.1"
+version = "0.1.2"
 dependencies = [
  "redcon",
  "tzf-rs",
