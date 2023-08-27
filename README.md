@@ -5,7 +5,7 @@ Build with [`tidwall/redcon.rs`](https://github.com/tidwall/redcon.rs) and
 
 ## Install
 
-### Via `cargo``
+### Via `cargo`
 
 ```bash
 cargo install redizone
