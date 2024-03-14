@@ -14,4 +14,4 @@ repository = "https://github.com/ringsaturn/redizone"
 
 [dependencies]
 redcon = "0.1.2"
-tzf-rs = "0.4.5"
+tzf-rs = "0.4.6"
