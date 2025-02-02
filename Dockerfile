@@ -1,4 +1,4 @@
-FROM rust:1.70.0 as builder
+FROM rust:1.82.0 as builder
 
 WORKDIR /usr/src/redizone
 COPY . .
